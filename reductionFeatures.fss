@@ -1,0 +1,41 @@
+# reductionFeatures.fss
+
+# lp = low pitch 
+lp -250 to -100 self
+lp  -100 to -20 self
+lp    -20 to 20 self
+
+lp    20 to 100 self
+lp   100 to 250 self
+
+# hp = high pitch 
+hp -250 to -100 self
+hp  -100 to -20 self
+hp    -20 to 20 self
+
+hp    20 to 100 self
+hp   100 to 250 self
+
+# np = narrow pitch 
+np -250 to -100 self
+np  -100 to -20 self
+np    -20 to 20 self
+
+np    20 to 100 self
+np   100 to 250 self
+
+# wp = wide pitch 
+wp -250 to -100 self
+wp  -100 to -20 self
+wp    -20 to 20 self
+
+wp    20 to 100 self
+wp   100 to 250 self
+
+# vo = intensity (volume)
+vo -250 to -100 self
+vo  -100 to -20 self
+vo    -20 to 20 self
+
+vo    20 to 100 self
+vo   100 to 250 self
