@@ -2,7 +2,7 @@ import csv
 import glob 
 import pympi # Import pympi to work with elan files
 
-corpus_root = "C:\Research\corpus\English"
+corpus_root = "C:\Research\\features\ES\\"
 
 counts = [0,0,0,0]
 
@@ -20,6 +20,6 @@ for file_path in glob.glob('{}/*reduction.eaf'.format(corpus_root)):
             else:
                 counts[int(annotation[2])] += 1
     print("Counts for ", file_path," :", counts)
-    counts = [0,0,0,0]
-        
-    
+
+print("Total counts: ", counts)
+
