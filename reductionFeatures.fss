@@ -1,41 +1,121 @@
 # reductionFeatures.fss
 
-# lp = low pitch 
-lp -250 to -100 self
-lp  -100 to -20 self
-lp    -20 to 20 self
+tl -250 to -100 self
+tl -100 to  -20 self
+tl  -20 to   20 self
 
-lp    20 to 100 self
-lp   100 to 250 self
+tl    20 to 100 self
+tl   100 to 250 self
 
-# hp = high pitch 
-hp -250 to -100 self
-hp  -100 to -20 self
-hp    -20 to 20 self
+th -250 to -100 self
+th  -100 to -20 self
+th   -20 to  20 self
 
-hp    20 to 100 self
-hp   100 to 250 self
+th    20 to 100 self
+th   100 to 250 self
 
-# np = narrow pitch 
+vo -250 to -100 self
+vo -100 to  -20 self
+vo -20 to    20 self
+
+vo    20 to 100 self
+vo   100 to 250 self
+
 np -250 to -100 self
-np  -100 to -20 self
-np    -20 to 20 self
+np -100 to -20 self
+np  -20 to   20 self
 
 np    20 to 100 self
 np   100 to 250 self
 
-# wp = wide pitch 
 wp -250 to -100 self
-wp  -100 to -20 self
-wp    -20 to 20 self
+wp -100 to  -20 self
+wp  -20 to   20 self
 
 wp    20 to 100 self
 wp   100 to 250 self
 
-# vo = intensity (volume)
-vo -250 to -100 self
-vo  -100 to -20 self
-vo    -20 to 20 self
+cr -250 to -100 self
+cr -100 to -20 self
+cr   -20 to  20 self
 
-vo    20 to 100 self
-vo   100 to 250 self
+cr    20 to 100 self
+cr   100 to 250 self
+
+vf -250 to -100 self
+vf  -100 to -20 self
+vf   -20 to  20 self
+
+vf    20 to 100 self
+vf   100 to 250 self
+
+re -250 to -100 self
+re  -100 to -20 self
+re   -20 to  20 self
+
+re    20 to 100 self
+re   100 to 250 self
+
+en -250 to -100 self
+en  -100 to -20 self
+en   -20 to  20 self
+
+en    20 to 100 self
+en   100 to 250 self
+
+le -250 to -100 self
+le  -100 to -20 self
+le   -20 to  20 self
+
+le    20 to 100 self
+le   100 to 250 self
+
+#Threw an error
+#vr -250 to -100 self
+#vr  -100 to -20 self
+#vr   -20 to  20 self
+#
+#vr    20 to 100 self
+#vr   100 to 250 self
+
+sf -250 to -100 self
+sf  -100 to -20 self
+sf   -20 to  20 self
+
+sf    20 to 100 self
+sf   100 to 250 self
+
+pd -250 to -100 self
+pd  -100 to -20 self
+pd   -20 to  20 self
+
+pd    20 to 100 self
+pd   100 to 250 self
+
+st -250 to -100 self
+st  -100 to -20 self
+st   -20 to  20 self
+
+st    20 to 100 self
+st   100 to 250 self
+
+tr -250 to -100 self
+tr  -100 to -20 self
+tr   -20 to  20 self
+
+tr    20 to 100 self
+tr   100 to 250 self
+
+tf -250 to -100 self
+tf  -100 to -20 self
+tf   -20 to  20 self
+
+tf    20 to 100 self
+tf   100 to 250 
+
+tm -250 to -100 self
+tm  -100 to -20 self
+tm   -20 to  20 self
+
+tm    20 to 100 self
+tm   100 to 250 self
