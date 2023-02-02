@@ -111,7 +111,7 @@ tf  -100 to -20 self
 tf   -20 to  20 self
 
 tf    20 to 100 self
-tf   100 to 250 
+tf   100 to 250 self
 
 tm -250 to -100 self
 tm  -100 to -20 self
