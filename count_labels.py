@@ -2,7 +2,7 @@ import csv
 import glob 
 import pympi # Import pympi to work with elan files
 
-corpus_root = "C:\Research\\features\ES\\"
+corpus_root = "C:\Research\\features\EN\\"
 
 counts = [0,0,0,0]
 
